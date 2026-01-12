@@ -34,12 +34,12 @@ We will be using USB protocol as it is the best way to image your RoboRio.
 
 :::note
 
-If in the "roboRIO Targets" doesn't show your RoboRio click the `Recan` Button
+If in the "roboRIO Targets" doesn't show your RoboRio click the `Rescan` Button
 
 :::
 
 4. Select your RoboRio from the roboRIO Targets
-5. Change the "Team Number" section to your Team Number (Our team number is **4384**)
+5. Change the "Team Number" section to your Team Number (Ex. **4384**)
 6. Select "Format Target"
 7. Select your Latest Image from the Select Image section
    ![FRCImagingToolsFormatTarget.png](./img/FRCImagingToolsFormatTarget.png)

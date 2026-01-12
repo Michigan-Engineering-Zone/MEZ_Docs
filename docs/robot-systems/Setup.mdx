@@ -1,0 +1,52 @@
+---
+sidebar_position: 1
+---
+import IconExternalLink from '@theme/Icon/ExternalLink';
+
+# FRC Robot Project Setup (Java)
+
+This page will teach you to setup a java project for your FRC Robot.  
+
+:::warning
+Before you proceed, ensure you have the FRC Game tools downloaded; If not follow this [tutorial <IconExternalLink />](/docs/system-setup/frc_game_tools_installation.mdx)
+
+**System requirements**:
+- Windows 10+
+:::
+
+## Step 1: Open WPILib Application
+On your Windows computer, press the **Windows** key and type "WPIlib VS Code". An application should show up.
+
+<img src={require('./img/setup/FRC_WPILIB_VSCODE.gif').default} alt="FRC WPILib VSCode" style={{width: '600px', maxWidth: '100%'}} />
+
+
+## Step 2: Generate Project
+The application window is called "WPILib VSCode". 
+
+1. On the window, press `Ctrl+Shift+P`
+2. Type "WPILib: Create a new project"
+3. You should see a highlighted option called "WPILib: Create a new project", click it.
+
+<img src={require('./img/setup/WPILib_Create_Project.gif').default} alt="FRC WPILib VSCode" style={{width: '600px', maxWidth: '100%'}} />
+
+
+## Step 3: Template Type
+
+1. Click the button "Select a project type (Example or Template)"
+2. Choose the "Template" option
+3. Choose the "Java" option
+4. This will give you a list of project templates. Choose the template that best suits your team's needs. Most common are "CommandRobot" and "TimedRobot".
+
+<img src={require('./img/setup/WPILib_Template.gif').default} alt="FRC WPILib VSCode" style={{width: '600px', maxWidth: '100%'}} />
+
+## Step  4: Final Generation
+
+1. Click the button "Select a new project folder", and choose a path you want the project to be stored
+2. For the field "Project Name" type in a name for the project
+3. For the field "Team Number" type in your team number
+4. Click the button "Generate Project"
+5. A small pop up window will show up, click "Yes (Current Window)"
+6. Another pop up window will show up about "Trust ...", click "Yes ..."
+7. You are done! :tada:
+
+<img src={require('./img/setup/WPILib_Generate.gif').default} alt="FRC WPILib VSCode" style={{width: '600px', maxWidth: '100%'}} />
